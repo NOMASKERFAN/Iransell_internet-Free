@@ -7,10 +7,6 @@ from typing import Optional
 from config import Banner
 from Refrer import MyIrancell
 
-
-
-
-
 Banner()
 
 def main(token: str):
@@ -29,4 +25,5 @@ if token and len(token) > 50:
     main(token=token)
 else:
     token = input("Enter token: ").strip()
+
     main(token=token)
