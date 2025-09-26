@@ -24,6 +24,7 @@
 
 4. 
 var token = localStorage.getItem('NGMI-Sessions');
+
 console.log(token);
 
    
@@ -35,12 +36,14 @@ console.log(token);
 
 9. 
    pip install requests
+   
    pip install colorama
+   
    pip install pyfiglet
 
 
    
-10. سپس فایل main.py را اجرا کنید و از قابلیت برنامه استفاده کنید. به طور پیش‌فرض این برنامه ۲۰ بار اجرا می‌شود و هر بار تعداد زیادی دعوت ارسال می‌شود.
+11. سپس فایل main.py را اجرا کنید و از قابلیت برنامه استفاده کنید. به طور پیش‌فرض این برنامه ۲۰ بار اجرا می‌شود و هر بار تعداد زیادی دعوت ارسال می‌شود.
 
 ---
 
