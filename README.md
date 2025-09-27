@@ -32,9 +32,11 @@
 7. مطمئن شوید که پایتون روی سیستم شما نصب شده است.  
 8. کتابخانه‌های مورد نیاز را نصب کنید:
 
-pip install requests
-pip install colorama
-pip install pyfiglet
+>pip install requests
+
+>pip install colorama
+
+>pip install pyfiglet
 
 
 9. سپس فایل main.py را اجرا کنید و از قابلیت برنامه استفاده کنید.  
