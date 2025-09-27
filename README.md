@@ -1,6 +1,4 @@
-html
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMhxNgB4AOZBf0tjUBcUrqiWQ3Ii84nlRo5RhsJ0t94APAE5IB7ZS5Ouu8&s=10" alt="لوگوی ایرانسل" width="150" />
-```
+
 ---
 
 # Iransell_internet-Free
