@@ -22,8 +22,8 @@
 2. اگر از دسکتاپ استفاده می‌کنید، روی صفحه کلیک راست کرده و گزینه «Inspect» (بازرسی) را انتخاب کنید.  
 3. در تب «Console» کد زیر را وارد کنید:
 
-var token = localStorage.getItem('NGMI-Sessions');
-console.log(token);
+>var token = localStorage.getItem('NGMI-Sessions');
+>console.log(token);
 
 
 4. سپس توکن حساب کاربری ایرانسل خود را مشاهده و کپی کنید.  
