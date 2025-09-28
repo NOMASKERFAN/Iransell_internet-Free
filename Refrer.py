@@ -2,7 +2,7 @@ from random import sample
 from requests import post
 import requests.exceptions
 from colorama import Fore
-from config import log
+from iransell.config import log
 import time
 
 
@@ -70,7 +70,8 @@ class MyIrancell:
         """Get current token"""
         return self.__token
 
-    def __random_number(self):
+    @staticmethod
+    def __random_number():
         """Generate random mobile number"""
         return '933' + ''.join(sample('1234567890', 7))
 
@@ -85,12 +86,11 @@ class MyIrancell:
         url = 'https://my.irancell.ir/api/gift/v1/refer_a_friend/notify'
         return post(url, json=self.__data, headers=self.__header_send)
 
-    def run(self, loop: int = 20, sleep: int = 0) -> str:
+    def run(self, loop: int = 50, sleep: int = 1) -> str:
         """Start the process"""
         numbers = []
         if not self.get_token():
             exit("Token not set.")
-
         for _ in range(loop + 1):
             try:
                 number = self.__random_number()
