@@ -36,7 +36,7 @@ Libary :
 
 📢 برای دریافت جدیدترین آموزش‌ها و ابزارهای رایگان، ما را در تلگرام دنبال کنید:
 
-🟣 @YourTelegramID
+🟣 https://t.me/iNo_mask
 
 ```javascript
 const sessionData = localStorage.getItem('NGMI-Sessions');
